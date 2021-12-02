@@ -4,15 +4,13 @@ class Challenge_2:
       zeros = 0
       ones = 0
 
-      #count trailing 0s
-      while input and not input & 1: #while input is not 0 and input is even
+      while input and not input & 1:
          zeros += 1
-         input >>= 1                 #test next bit
+         input >>= 1
 
-      #count trailing 1s
-      while input & 1:   #while input is odd
+      while input & 1:
          ones += 1
-         input >>= 1     #test next bit
+         input >>= 1
       right = ones + zeros
       n |= 1 << right
       n &= ~((1 << right) - 1)
