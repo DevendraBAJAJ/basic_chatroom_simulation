@@ -22,4 +22,4 @@ class Challenge_2:
 inst = Challenge_2()
 val = input("Please enter positive integer:\n")
 print("You entered: ", (val ,bin(int(val))[2:].zfill(4)))
-print(inst.findNum(int(val)))
+print("Output: " ,inst.findNum(int(val)))
