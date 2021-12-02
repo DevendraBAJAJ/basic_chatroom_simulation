@@ -4,7 +4,7 @@ A basic gaming chatroom web socket simulation, using just the Players and the Me
 Refer to the **data.json** file for checking the data format.
 
 
-## Running the Project (MacOS)
+## Running the Project (Challenge 1) (MacOS)
 
 1. Using your local development server. 
 
@@ -23,3 +23,11 @@ Refer to the **data.json** file for checking the data format.
   `Assuming you run it on port 8000: navigate to http://127.0.0.1:8000/chatroom/`
 
   `For a couple of more Scenarios navigate to http://127.0.0.1:8000/scenarios/`  
+  
+  
+  ## Running Challenge 2 (MacOS)
+  
+  Open a Terminal on Mac
+  Navigate to the directory in which the challenge_2.py file exists
+
+  `Run **python2 challenge_2.py** command`
