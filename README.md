@@ -30,4 +30,4 @@ Refer to the **data.json** file for checking the data format.
   Open a Terminal on Mac
   Navigate to the directory in which the challenge_2.py file exists
 
-  `Run **python2 challenge_2.py** command`
+  Run python2 challenge_2.py command
