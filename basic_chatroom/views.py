@@ -1,3 +1,4 @@
+from django.http import HttpResponse
 from django.shortcuts import render
 import json
 
@@ -19,3 +20,11 @@ def challenge_1(request):
 
 
     return render(request, 'challenge_1.html', args)
+
+
+
+def pdf_view(request):
+    with open('opnbxai.pdf', 'rb') as pdf:
+        response = HttpResponse(pdf.read(),content_type='application/pdf')
+        response['Content-Disposition'] = 'filename=opnbxai.pdf'
+        return response
