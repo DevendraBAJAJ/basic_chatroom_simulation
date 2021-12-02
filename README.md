@@ -19,3 +19,7 @@ Refer to the **data.json** file for checking the data format.
   `source venv/bin/activate`
 
   `python3 manage.py runserver`
+
+  `Assuming you run it on port 8000: navigate to http://127.0.0.1:8000/chatroom/`
+
+  `For a couple of more Scenarios navigate to http://127.0.0.1:8000/scenarios/`  
