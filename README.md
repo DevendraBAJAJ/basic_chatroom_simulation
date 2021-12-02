@@ -26,8 +26,11 @@ Refer to the **data.json** file for checking the data format.
   
   
   ## Running Challenge 2 (MacOS)
+
+  Please look for the **challenge_2.py** file in the project directory
   
   Open a Terminal on Mac
-  Navigate to the directory in which the challenge_2.py file exists
 
-  Run **python3 challenge_2.py** command
+  Navigate to the project base directory in which the challenge_2.py file exists
+
+  Run **python3 challenge_2.py** command or **python challenge_2.py** command
