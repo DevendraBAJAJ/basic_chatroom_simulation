@@ -1,2 +1,21 @@
+## Django Chatroom Simulation
+
 A basic gaming chatroom web socket simulation, using just the Players and the Message values. An input field has been provided to type in your own message. 
 Refer to the **data.json** file for checking the data format.
+
+
+## Running the Project (MacOS)
+
+1. Using your local development server. 
+
+   Navigate to your empty project directory on your MacOS and then:
+   
+   Assuming you have Python 3.X installed
+  
+  `git clone https://github.com/DevendraBAJAJ/basic_chatroom_simulation.git`
+
+  `cd opnbxai`
+
+  `source venv/bin/activate`
+
+  `python3 manage.py runserver`
